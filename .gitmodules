@@ -1,0 +1,6 @@
+[submodule "http-client"]
+	path = http-client
+	url = git@github.com:SillySyx/http-client.git
+[submodule "crypto"]
+	path = crypto
+	url = git@github.com:SillySyx/crypto.git

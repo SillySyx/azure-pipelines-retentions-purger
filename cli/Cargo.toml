@@ -1,0 +1,10 @@
+[package]
+name = "azure-pipelines-retentions-purger"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+crypto = { path = "../crypto" }
+http-client = { path = "../http-client" }
+serde = { version = "1.0", features = ["derive"] }
+tokio = { version = "1.19", features = ["rt-multi-thread", "macros"]  }
